@@ -3,6 +3,7 @@ name: Dependency Submission with PURLs
 on:
   push:
   pull_request:
+  pull_request_target:
   workflow_dispatch:
 
 permissions:
@@ -21,3 +22,4 @@ jobs:
             pkg:npm/lodash@4.17.21
             pkg:npm/express@4.18.2
             pkg:npm/axios@1.6.0
+            pkg:npm/react@18.2.0
